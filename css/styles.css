@@ -48,7 +48,15 @@ hr {
   z-index: 1;
 }
 .thumbnail {
+  position: relative;
   box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
+}
+.description {
+  position: absolute;
+  display: none;
+  padding: 2px;
+  bottom: 47.1615px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .navbar-default .navbar-text {
