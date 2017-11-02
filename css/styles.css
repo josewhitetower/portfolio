@@ -8,7 +8,6 @@ h4,
 h5 {
   color: #4a4e69;
   font-weight: 300;
-  font-family: "Ubuntu", sans-serif;
 }
 a {
   color: #4a4e69;
@@ -17,7 +16,6 @@ a {
 p {
   color: #4a4e69;
   font-weight: 300;
-  font-family: "Ubuntu", sans-serif;
 }
 
 section {
@@ -48,6 +46,9 @@ hr {
   background: none;
   border: none;
   z-index: 1;
+}
+.thumbnail {
+  box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
 }
 
 .navbar-default .navbar-text {
@@ -145,9 +146,9 @@ hr {
   background: rgb(255, 255, 255);
   border-radius: 5px;
   box-shadow: 0 1px 10px 3px rgba(0, 0, 0, 0.18);
-  top: -60px;
+  top: 60px;
   padding: 5px 15px;
-  max-width: 400px;
+  max-width: 768px;
   margin: auto;
 }
 
