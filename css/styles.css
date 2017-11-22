@@ -224,3 +224,7 @@ hr {
   color: #007299;
   box-shadow: none;
 }
+#projects p,
+.caption {
+  font-size: 18px;
+}
